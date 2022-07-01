@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-01T10:45:59.359Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="zPU-avz4-4IB1vDqEuID" version="20.0.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-07-01T10:49:08.255Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="FIJ-j1IewQmkHngQ4GuP" version="20.0.3" type="github" pages="7">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1234" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -307,7 +307,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="YCzogONuC1grVszoGsav" name="第 3 页">
-    <mxGraphModel dx="1234" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1234" dy="736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -330,7 +330,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qidn5dLupte3tVjYl4i5" name="第 4 页">
-    <mxGraphModel dx="1234" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1234" dy="736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -364,9 +364,6 @@
         <mxCell id="KUeKO058vVJVvG5vHiWK-15" value="填写 Carrier 文件" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=手札体-简;fontSize=10;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="220" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KUeKO058vVJVvG5vHiWK-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1A1A1A;strokeColor=#09555B;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1yJAD11QD2nHrwMPHo0o-3" target="KUeKO058vVJVvG5vHiWK-18">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="KUeKO058vVJVvG5vHiWK-21" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#1A1A1A;strokeColor=#09555B;curved=1;" edge="1" parent="1" source="1yJAD11QD2nHrwMPHo0o-3" target="KUeKO058vVJVvG5vHiWK-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -375,9 +372,6 @@
         </mxCell>
         <mxCell id="KUeKO058vVJVvG5vHiWK-16" value="上传 Carrier 到 Admin" style="whiteSpace=wrap;html=1;fontSize=10;fontFamily=手札体-简;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="290" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="KUeKO058vVJVvG5vHiWK-18" value="生成模板文件" style="whiteSpace=wrap;html=1;fontSize=10;fontFamily=手札体-简;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;sketch=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KUeKO058vVJVvG5vHiWK-20" value="在 Bill Config Admin 或模板文件填写&lt;br&gt;配置、备注" style="whiteSpace=wrap;html=1;fontSize=10;fontFamily=手札体-简;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="510" width="120" height="70" as="geometry" />
@@ -409,7 +403,7 @@
         <mxCell id="KUeKO058vVJVvG5vHiWK-40" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#1A1A1A;strokeColor=#09555B;curved=1;" edge="1" parent="1" source="KUeKO058vVJVvG5vHiWK-37" target="KUeKO058vVJVvG5vHiWK-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KUeKO058vVJVvG5vHiWK-37" value="验证功能" style="whiteSpace=wrap;html=1;fontSize=10;fontFamily=手札体-简;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;sketch=1;" vertex="1" parent="1">
+        <mxCell id="KUeKO058vVJVvG5vHiWK-37" value="验证功能（可选）" style="whiteSpace=wrap;html=1;fontSize=10;fontFamily=手札体-简;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;sketch=1;arcSize=50;" vertex="1" parent="1">
           <mxGeometry x="700" y="960" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KUeKO058vVJVvG5vHiWK-42" value="验证通过" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1A1A1A;strokeColor=#09555B;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="KUeKO058vVJVvG5vHiWK-39" target="KUeKO058vVJVvG5vHiWK-41">
