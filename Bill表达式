@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-23T10:32:08.266Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="SaPU0IQT5QdrUgrDHUWo" version="21.2.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-04-23T11:06:05.052Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="f8BLwA4FzCpV3x6R76QS" version="21.2.1" type="github" pages="9">
   <diagram name="第 1 页" id="ZXWzPZsDQiPZqi89TUBu">
     <mxGraphModel dx="2247" dy="889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -509,6 +509,178 @@
         </mxCell>
         <mxCell id="HVN0n5SSfxusav1y7bRd-5" value="&lt;font&gt;description:&lt;br&gt;配置页面底部的提示信息&lt;br&gt;需要遵循 { transifyKey: [], transifyConfig: {}, title: &#39;&#39; } 格式，其中 transifyKey 是数组，每一项是一行提示信息，transifyConfig 是翻译内容的参数，可参照 i18n.t 若提示的翻译无参数可忽略，title 是提示顶部的标题，不填默认为 notes&lt;br&gt;&lt;/font&gt;&lt;br&gt;可用字段：&lt;br&gt;&lt;font color=&quot;#007fff&quot;&gt;billInfo (可展开)&lt;/font&gt;, &lt;font color=&quot;#007fff&quot;&gt;carrier (可展开)&lt;/font&gt;&lt;br&gt;&lt;br&gt;全局字段：&lt;br&gt;变量：now, nowFullYear, nowMonth,&lt;br&gt;方法：t, tUpper, currency, dayjs&lt;br&gt;&lt;br&gt;&lt;br&gt;配置示例：&lt;br&gt;① { transifyKey: [&quot;bill.note1&quot;, &quot;bill.note2&quot;] }&amp;nbsp;&lt;br&gt;② { transifyKey: [&quot;bill.note1&quot;], transifyConfig: { text: @billInfo.customerId }, title: &#39;bill.note_title&#39; }&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontFamily=手札体-简;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="120" y="-30" width="360" height="400" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="rO5hHJ2X0r3LzRc23LxB" name="第 8 页">
+    <mxGraphModel dx="1420" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-GYt8z_F4peWeejgQmIy-2" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="238" y="120" width="882" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="-GYt8z_F4peWeejgQmIy-4" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="238" y="120" width="170" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="-GYt8z_F4peWeejgQmIy-3" value="字段" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="280" y="160" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-GYt8z_F4peWeejgQmIy-5" value="取值" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="280" y="220" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-GYt8z_F4peWeejgQmIy-6" value="条件判断" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="280" y="280" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-GYt8z_F4peWeejgQmIy-7" value="计算" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="280" y="340" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-GYt8z_F4peWeejgQmIy-8" value="方法调用" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="280" y="400" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-GYt8z_F4peWeejgQmIy-9" value="复杂结构" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="280" y="460" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-GYt8z_F4peWeejgQmIy-10" value="取值" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="495" y="220" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-GYt8z_F4peWeejgQmIy-11" value="billInfo" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="595" y="220" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-GYt8z_F4peWeejgQmIy-12" value="bills" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="695" y="220" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-GYt8z_F4peWeejgQmIy-14" value="length" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="785" y="220" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-GYt8z_F4peWeejgQmIy-15" value="条件判断" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="470" y="160" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-GYt8z_F4peWeejgQmIy-16" value="大于" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="495" y="280" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-GYt8z_F4peWeejgQmIy-17" value="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="495" y="340" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-GYt8z_F4peWeejgQmIy-18" value="条件判断" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="470" y="400" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-GYt8z_F4peWeejgQmIy-19" value="如果" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="570" y="160" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-GYt8z_F4peWeejgQmIy-21" value="则" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="570" y="400" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-GYt8z_F4peWeejgQmIy-22" value="取值" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="540" y="510" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-GYt8z_F4peWeejgQmIy-23" value="billInfo" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="640" y="510" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-GYt8z_F4peWeejgQmIy-24" value="billAmount" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="740" y="510" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-GYt8z_F4peWeejgQmIy-26" value="计算" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="495" y="460" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-GYt8z_F4peWeejgQmIy-27" value="+" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="495" y="565" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-GYt8z_F4peWeejgQmIy-28" value="取值" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="540" y="620" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-GYt8z_F4peWeejgQmIy-29" value="billInfo" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="640" y="620" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-GYt8z_F4peWeejgQmIy-30" value="providerAdditionalFee" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="740" y="620" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-GYt8z_F4peWeejgQmIy-31" value="adminFee" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="965.5" y="620" width="104.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-GYt8z_F4peWeejgQmIy-32" value="+" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="495" y="680" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-GYt8z_F4peWeejgQmIy-33" value="取值" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="540" y="735" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-GYt8z_F4peWeejgQmIy-34" value="billInfo" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="640" y="735" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-GYt8z_F4peWeejgQmIy-35" value="shopeeAdminFee" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="740" y="735" width="170" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="nxxmel74EpvmxFVNhJph" name="第 9 页">
+    <mxGraphModel dx="1420" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="B28GA5_YThVEm5VCqhj6-1" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="238" y="120" width="312" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="B28GA5_YThVEm5VCqhj6-2" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="238" y="120" width="170" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="B28GA5_YThVEm5VCqhj6-3" value="字段" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="280" y="160" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B28GA5_YThVEm5VCqhj6-4" value="对象 key" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="660" y="220" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B28GA5_YThVEm5VCqhj6-5" value="条件判断" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="280" y="280" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B28GA5_YThVEm5VCqhj6-6" value="计算" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="280" y="340" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B28GA5_YThVEm5VCqhj6-7" value="方法调用" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="280" y="400" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B28GA5_YThVEm5VCqhj6-8" value="复杂结构" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="280" y="460" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B28GA5_YThVEm5VCqhj6-13" value="复杂结构 - 对象" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="640" y="160" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9Hk1rc0fb3drOQ44m0RN-1" value="取值" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="280" y="220" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9Hk1rc0fb3drOQ44m0RN-2" value="&quot;title&quot;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="760" y="220" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9Hk1rc0fb3drOQ44m0RN-3" value="对象 value" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="660" y="280" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zPwiOaFqTOp14xR7BAoz-1" value="方法调用" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="760" y="280" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zPwiOaFqTOp14xR7BAoz-3" value="t" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="860" y="280" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zPwiOaFqTOp14xR7BAoz-4" value="参数" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="960" y="280" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zPwiOaFqTOp14xR7BAoz-5" value="&quot;bill.note_title&quot;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="280" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zPwiOaFqTOp14xR7BAoz-6" value="对象 key" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="660" y="360" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zPwiOaFqTOp14xR7BAoz-7" value="&quot;transifyKey&quot;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="760" y="360" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zPwiOaFqTOp14xR7BAoz-8" value="对象 value" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="660" y="420" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zPwiOaFqTOp14xR7BAoz-13" value="复杂结构 - 数组" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="760" y="420" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zPwiOaFqTOp14xR7BAoz-14" value="数组项 - 1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="760" y="480" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
