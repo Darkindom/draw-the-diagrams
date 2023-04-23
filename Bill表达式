@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-23T11:06:05.052Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="f8BLwA4FzCpV3x6R76QS" version="21.2.1" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-04-23T11:08:27.702Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="ocLm9rB6ZFiBeLxdmdM0" version="21.2.1" type="github" pages="9">
   <diagram name="第 1 页" id="ZXWzPZsDQiPZqi89TUBu">
     <mxGraphModel dx="2247" dy="889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -681,6 +681,45 @@
         </mxCell>
         <mxCell id="zPwiOaFqTOp14xR7BAoz-14" value="数组项 - 1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="760" y="480" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zPwiOaFqTOp14xR7BAoz-15" value="&quot;bill.note1&quot;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="890" y="480" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zPwiOaFqTOp14xR7BAoz-16" value="数组项 - 1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="760" y="540" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zPwiOaFqTOp14xR7BAoz-17" value="&quot;bill.note2&quot;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="890" y="540" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zPwiOaFqTOp14xR7BAoz-18" value="对象 key" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="660" y="620" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zPwiOaFqTOp14xR7BAoz-19" value="&quot;transifyConfig&quot;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="760" y="620" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zPwiOaFqTOp14xR7BAoz-20" value="对象 value" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="660" y="680" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zPwiOaFqTOp14xR7BAoz-21" value="复杂结构 - 对象" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="760" y="680" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zPwiOaFqTOp14xR7BAoz-23" value="&quot;text&quot;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="860" y="740" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zPwiOaFqTOp14xR7BAoz-26" value="对象 key" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="760" y="740" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zPwiOaFqTOp14xR7BAoz-27" value="对象 value" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="760" y="800" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zPwiOaFqTOp14xR7BAoz-28" value="取值" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="860" y="800" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zPwiOaFqTOp14xR7BAoz-29" value="billInfo" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="960" y="800" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zPwiOaFqTOp14xR7BAoz-30" value="customerId" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="800" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
