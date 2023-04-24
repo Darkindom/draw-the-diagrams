@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-24T10:56:39.242Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="Z5DHqJtUIzlkkCSfvGMw" version="21.2.1" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-04-24T10:59:15.937Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="GRNBM_0KHQfUQrlZ9hSG" version="21.2.1" type="github" pages="9">
   <diagram name="第 1 页" id="ZXWzPZsDQiPZqi89TUBu">
     <mxGraphModel dx="2247" dy="889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -540,7 +540,7 @@
           <mxGeometry x="280" y="340" width="86" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-GYt8z_F4peWeejgQmIy-11" value="billInfo.bills.length" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="1124" y="185" width="170" height="40" as="geometry" />
+          <mxGeometry x="1122" y="220" width="156" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-GYt8z_F4peWeejgQmIy-14" value="账单长度" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
           <mxGeometry x="570" y="160" width="110" height="40" as="geometry" />
@@ -563,8 +563,8 @@
         <mxCell id="1x9UZCtYG7HWcWiHkyB8-2" value="数字 1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="789" y="160" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="i1rMQPJ6F0QqjI1mjRpa-2" value="字段" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="1230" y="640" width="86" height="40" as="geometry" />
+        <mxCell id="i1rMQPJ6F0QqjI1mjRpa-2" value="创建变量" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1122" y="150" width="86" height="40" as="geometry" />
         </mxCell>
         <mxCell id="i1rMQPJ6F0QqjI1mjRpa-3" value="取值" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1124" y="640" width="86" height="40" as="geometry" />
@@ -572,26 +572,26 @@
         <mxCell id="i1rMQPJ6F0QqjI1mjRpa-4" value="变量" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=手札体-简;" vertex="1" parent="1">
           <mxGeometry x="1020" y="130" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="i1rMQPJ6F0QqjI1mjRpa-5" value="账单长度" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontFamily=手札体-简;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="190" width="90" height="30" as="geometry" />
+        <mxCell id="i1rMQPJ6F0QqjI1mjRpa-5" value="账单长度" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontFamily=手札体-简;" vertex="1" parent="1">
+          <mxGeometry x="1028" y="225" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i1rMQPJ6F0QqjI1mjRpa-6" value="billInfo.bills[0].billAmount" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="1124" y="235" width="170" height="40" as="geometry" />
+          <mxGeometry x="1122" y="270" width="206" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="i1rMQPJ6F0QqjI1mjRpa-7" value="账单金额" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontFamily=手札体-简;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="240" width="90" height="30" as="geometry" />
+        <mxCell id="i1rMQPJ6F0QqjI1mjRpa-7" value="账单金额" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontFamily=手札体-简;" vertex="1" parent="1">
+          <mxGeometry x="1028" y="275" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i1rMQPJ6F0QqjI1mjRpa-8" value="&amp;nbsp; billInfo&lt;br&gt;&amp;nbsp; .providerAdditionalFee&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; .adminFee&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1124" y="285" width="220" height="75.5" as="geometry" />
+          <mxGeometry x="1122" y="320" width="220" height="75.5" as="geometry" />
         </mxCell>
-        <mxCell id="i1rMQPJ6F0QqjI1mjRpa-9" value="hub 手续费" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontFamily=手札体-简;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="307.75" width="90" height="30" as="geometry" />
+        <mxCell id="i1rMQPJ6F0QqjI1mjRpa-9" value="hub 手续费" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontFamily=手札体-简;" vertex="1" parent="1">
+          <mxGeometry x="1028" y="342.75" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i1rMQPJ6F0QqjI1mjRpa-10" value="billInfo.shopeeAdminFee" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="1124" y="375" width="200" height="40" as="geometry" />
+          <mxGeometry x="1122" y="410" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="i1rMQPJ6F0QqjI1mjRpa-11" value="dp 手续费" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontFamily=手札体-简;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="380" width="90" height="30" as="geometry" />
+        <mxCell id="i1rMQPJ6F0QqjI1mjRpa-11" value="dp 手续费" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontFamily=手札体-简;" vertex="1" parent="1">
+          <mxGeometry x="1028" y="415" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i1rMQPJ6F0QqjI1mjRpa-12" value="hub 手续费" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
           <mxGeometry x="670" y="262" width="110" height="40" as="geometry" />
