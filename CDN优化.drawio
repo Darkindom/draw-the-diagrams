@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-10T06:09:58.231Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="0qGGXXUMx3upLhf_qoOU" version="21.6.1" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-07-10T06:11:59.577Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="tlbJu-ks88nrNA0IR6rl" version="21.6.1" type="github" pages="10">
   <diagram id="t3yySSqcQi0GK2jSETE2" name="缓存逻辑">
     <mxGraphModel dx="1420" dy="889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1482,11 +1482,24 @@
             <mxPoint x="15" y="-20" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="mm-WOtLpbAovKy_AFhrk-123" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=default;endArrow=classic;" edge="1" parent="1" source="mm-WOtLpbAovKy_AFhrk-113" target="mm-WOtLpbAovKy_AFhrk-115">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="60" />
+              <mxPoint x="460" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="mm-WOtLpbAovKy_AFhrk-113" value="请求结果" style="rhombus;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="190" y="-80" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="mm-WOtLpbAovKy_AFhrk-115" value="兜底缓存" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="400" y="-70" width="100" height="60" as="geometry" />
+        <mxCell id="mm-WOtLpbAovKy_AFhrk-115" value="localStorge&lt;br&gt;兜底缓存" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=18;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mm-WOtLpbAovKy_AFhrk-122" value="更新缓存" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=手札体-简;fontColor=default;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="360" y="180" as="geometry">
+            <mxPoint x="24" y="-105" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
