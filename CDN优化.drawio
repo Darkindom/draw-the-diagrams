@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-10T09:53:31.404Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="qCp4NDrRlRVxlp6cQCcg" version="21.6.1" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-07-10T09:54:28.676Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Xifil4xWqSq0CPujzhFG" version="21.6.1" type="github" pages="10">
   <diagram id="t3yySSqcQi0GK2jSETE2" name="缓存逻辑">
     <mxGraphModel dx="1420" dy="889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1524,6 +1524,9 @@
         </mxCell>
         <mxCell id="mm-WOtLpbAovKy_AFhrk-127" value="无需处理" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=18;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="30" y="450" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mm-WOtLpbAovKy_AFhrk-130" value="" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fillColor=none;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="190" y="230" width="730" height="290" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
