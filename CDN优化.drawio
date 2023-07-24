@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-24T06:57:24.329Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="gAZjapTciJ_yL9xB795Z" version="21.6.2" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2023-07-24T07:20:38.211Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="5yFsv6dFSf7pNYQPfAbc" version="21.6.2" type="github" pages="12">
   <diagram id="t3yySSqcQi0GK2jSETE2" name="缓存逻辑">
     <mxGraphModel dx="1420" dy="889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1399,7 +1399,7 @@
         </mxCell>
         <mxCell id="mm-WOtLpbAovKy_AFhrk-100" value="读取" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontFamily=手札体-简;fontColor=default;" parent="mm-WOtLpbAovKy_AFhrk-99" vertex="1" connectable="0">
           <mxGeometry x="-0.0843" y="2" relative="1" as="geometry">
-            <mxPoint x="18" y="16" as="offset" />
+            <mxPoint x="28" y="16" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mm-WOtLpbAovKy_AFhrk-78" value="Data Store" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=18;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
