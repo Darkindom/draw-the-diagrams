@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-24T06:45:47.491Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="fv49qDlLHjWKKfQqDFNW" version="21.6.2" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2023-07-24T06:48:50.960Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="1THfcG9U_SeSyfRbn7b1" version="21.6.2" type="github" pages="12">
   <diagram id="t3yySSqcQi0GK2jSETE2" name="缓存逻辑">
     <mxGraphModel dx="1420" dy="889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1590,7 +1590,7 @@
             <mxPoint x="360" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w5s7YN25ZmKPlrUxZ1XD-14" value="Data Store" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=18;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="w5s7YN25ZmKPlrUxZ1XD-14" value="Data Store" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=18;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="310" y="70" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w5s7YN25ZmKPlrUxZ1XD-15" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=手札体-简;fontSize=18;fontColor=default;endArrow=classic;" parent="1" source="w5s7YN25ZmKPlrUxZ1XD-16" target="w5s7YN25ZmKPlrUxZ1XD-47" edge="1">
@@ -1618,13 +1618,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="w5s7YN25ZmKPlrUxZ1XD-30" value="请求 CDN" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="60" y="-80" width="100" height="60" as="geometry" />
+          <mxGeometry x="75" y="-80" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="w5s7YN25ZmKPlrUxZ1XD-31" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=手札体-简;fontSize=18;fontColor=default;endArrow=classic;" parent="1" source="w5s7YN25ZmKPlrUxZ1XD-33" target="w5s7YN25ZmKPlrUxZ1XD-30" edge="1">
+        <mxCell id="ijoqFVqmMTl5WMqyVDA8-2" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=default;endArrow=classic;" edge="1" parent="1" source="w5s7YN25ZmKPlrUxZ1XD-33" target="w5s7YN25ZmKPlrUxZ1XD-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="w5s7YN25ZmKPlrUxZ1XD-33" value="浏览器缓存" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=18;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="60" y="-220" width="100" height="60" as="geometry" />
+        <mxCell id="ijoqFVqmMTl5WMqyVDA8-3" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=default;endArrow=classic;" edge="1" parent="1" source="w5s7YN25ZmKPlrUxZ1XD-33" target="w5s7YN25ZmKPlrUxZ1XD-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w5s7YN25ZmKPlrUxZ1XD-33" value="CDN 资源" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=手札体-简;fontSize=18;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="-40" y="-260" width="220" height="100" as="geometry" />
         </mxCell>
         <mxCell id="w5s7YN25ZmKPlrUxZ1XD-65" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=手札体-简;fontSize=16;fontColor=default;endArrow=classic;" parent="1" source="w5s7YN25ZmKPlrUxZ1XD-37" target="w5s7YN25ZmKPlrUxZ1XD-64" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1686,7 +1689,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Im4ygsx6xEx-DqEz7kAr" name="bill config 拆分">
-    <mxGraphModel dx="1420" dy="889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1420" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
